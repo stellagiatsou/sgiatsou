@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: "Segoe UI Light", sans-serif;
     cursor:  default;
-    
   }
     
   
@@ -15,13 +14,15 @@
   
   
   .navbar {
-    padding: 0rem 0rem;
+    padding: 0 0.25em;
+    margin: 0 0.25rem;
     transition: background-color 0.3s ease-in-out;
-    
+    border-radius: 25px; 
   }
   
   .navbar-brand {
     font-size: 1.5rem;
+    padding: 0 0.25em;
     font-weight: bold;
   }
   
@@ -33,7 +34,6 @@
   .nav-item {
     padding: 0rem 0rem !important;
     margin: 0 0.25rem; /* Decreased the margin between the links */
-    
   }
   
   .nav-link {
@@ -51,8 +51,12 @@
   
   .navbar-expand-md.show {
     padding: 1rem 1.5rem;
+    
   }
-  
+  .navbar-toggler{
+    padding: 0 0.25em;
+    margin: 0.55rem 0.55rem;
+  }
   h5{  
     margin:0;
     padding:0;
@@ -95,7 +99,7 @@
       left: 30px;
     }
   }
-  
+
   .name{
     font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
     font-weight: normal;
