@@ -14,7 +14,6 @@
   }
   
   
-  
   .navbar {
     padding: 0rem 0rem;
     transition: background-color 0.3s ease-in-out;
@@ -67,6 +66,7 @@
     line-height: 18px;   /* within paragraph */
     margin-top: 10px; /* between paragraphs */
   }
+
   p a:hover{
     cursor: pointer;
   }
@@ -77,7 +77,6 @@
     line-height: 18px;   /* within paragraph */
     margin-top: 10px; /* between paragraphs */
   }
-  
   
   .animate {
     opacity: 0;
@@ -96,6 +95,7 @@
       left: 30px;
     }
   }
+  
   .name{
     font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
     font-weight: normal;
